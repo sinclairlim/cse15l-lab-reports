@@ -1,3 +1,3 @@
-**Installing VSCode**
-Remote connecting
-Trying some commands
+**Installing VSCode**\
+Remote connecting\
+Trying some commands\

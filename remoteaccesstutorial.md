@@ -20,6 +20,19 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-This is normal since it is your first time connecting. Just enter `yes` and you will be good to go. 
+This is normal since it is your first time connecting. Just enter `yes` and you will be good to go. If successful, you should expect something like this:
+
+![Image](afterVerification.png)
 
 * **Trying some commands**
+
+Finally, feel free to run some commands in order to make sure you are correctly connected. You may try these commands:
+
+`cd`
+`cd ~`
+`ls`
+`ls -lat`
+`ls -a`
+
+A similar screen should appear as per below: 
+![Image](testCommands.png)

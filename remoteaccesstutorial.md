@@ -36,3 +36,5 @@ Finally, feel free to run some commands in order to make sure you are correctly 
 
 A similar screen should appear as per below: 
 ![Image](testCommands.png)
+
+These command helps you to change between directories on your computer, or on a remote server. For example, "cd" stands for change directory and "ls" stands for list. The output of cd is to show you the current directory you are in.

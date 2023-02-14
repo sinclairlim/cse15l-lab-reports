@@ -41,3 +41,17 @@ Example: "Xian"
 ![Image](onlyMatchingExample2.png)
 
 The output, "Xian" is printed only when the file consists of it. It also does not print out any other unnecessary texts, other than the particular keyword(s) we are searching for.
+
+**Command 3: Line Print , -H** 
+
+This command searches and prints only the lines in which the keyword is found.
+
+Example: "spectacular"
+![Image](linePrintExample1.png)
+
+We can see that the lines in which the keyword we are searching for, "spectacular", is printed. This can be beneficial if we want some context as to where the keyword is found.
+
+Example: "haunted"
+![Image](linePrintExample2.png)
+
+We can see that the lines in which the keyword we are searching for, "haunted", is printed. This can be beneficial if we want some context as to where the keyword is found.

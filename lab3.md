@@ -1,7 +1,7 @@
 This report is a writeup about researching commands. 
 
 **Command 1: Recursive , -r** 
-
+<br>
 This command searches not only in the folder, but recursively within files in that folder. 
 
 Example: "WhereToGo"

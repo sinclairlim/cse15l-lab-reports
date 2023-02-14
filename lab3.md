@@ -1,6 +1,7 @@
 This report is a writeup about researching commands. 
 
 **Command 1: Recursive , -r** 
+
 This command searches not only in the folder, but recursively within files in that folder. 
 
 Example: "WhereToGo"
@@ -14,6 +15,7 @@ Example: "WhatToDo"
 This example shows that the string "WhatToDo" had been found in files that are further down the path directory, and not limited to the current workspace.
 
 **Command 2: Count , -c** 
+
 This command counts the number of time the given argument appears within the file.
 
 Example: "the"
@@ -27,6 +29,7 @@ Example: "travel"
 The value on the right of the file name indicates the number of times that the string, "travel", appears in the file. 
 
 **Command 3: Only Matching , -o** 
+
 This command searches and prints only the matching texts, and nothing more.
 
 Example: "Singapore"

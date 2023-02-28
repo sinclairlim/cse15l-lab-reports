@@ -1,5 +1,7 @@
 This report is a writeup about researching commands. 
 
+Source: [GeekForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
 **Command 1: Recursive , -r** 
 <br>
 This command searches not only in the folder, but recursively within files in that folder. 
@@ -928,3 +930,26 @@ written_2/travel_guides/berlitz2/California-WhereToGo.txt:The highway continues 
 ```
 
 We can see that the lines in which the keyword we are searching for, "haunted", is printed. This can be beneficial if we want some context as to where the keyword is found.
+
+**Command 4: Match Whole Word , -w** 
+
+This command searches and prints only the searched word is matched completely and exactly.
+
+Example: "Forever"
+
+```
+[cs15lwi23agz@ieng6-201]:skill-demo1-data:226$ grep -r -w "Forever"
+written_2/non-fiction/OUP/Fletcher/ch10.txt:And if the servant shall plainly say, I love my master . . . I will not go out free, then his master shall bring him . . . to the door or to the door post, and his master shall bore his ear through with an awl and he shall serve him Forever.11
+written_2/non-fiction/OUP/Kauffman/ch6.txt:Forever Creative
+```
+
+Only when the word "Forever" is matched exactly, then the line will be returned. This means that this search is case sensitive and if we search for the word "forever", a different result should be expected. 
+
+Example: "spherical"
+```
+[cs15lwi23agz@ieng6-201]:skill-demo1-data:229$ grep -r -w "spherical"
+written_2/non-fiction/OUP/Kauffman/ch5.txt:What in the world is “know-how”? Philosophers distinguish between “know-how” and “know that.” I know how to tie my shoes and am learning how to play jazz drums. “Know that” concerns propositions, most conveniently, human propositions. I know that the moon is  they tell me  not made of green cheese. I know that the earth circles the sun, that the earth is roughly spherical, that chairs are used to sit on. “Know that” brings with it the standard and nonstandard issues of the truth or falseness of propositions as they report states of the world. Perhaps higher primates who are trained to manipulate simple symbols with apparent reference to the world also can “know that” with respect to propositions.
+written_2/non-fiction/OUP/Kauffman/ch9.txt:A general theorem considers hair on a spherical surface and combing the hair in any way you want. You cannot avoid a fixed point. More generally, replace hair by arrows, with tails and heads, where each arrow is a line with an arrow head at one end, drawn on the surface of the sphere. The arrows may bend if you like. Each arrow can be thought of as mapping the point on the sphere at the tail of that arrow to the point of the sphere at the tip of that arrow. So the arrows are a mapping of the surface of the sphere onto itself. For a continuous mapping, such that there is a mapping from each point on the sphere, a general fixed-point theorem proves that there must be at least one point on the surface of the sphere that maps onto itself  that point is a fixed point under the arrow mapping.
+```
+
+Only when the word "spherical" is matched exactly, then the line will be returned. This means that this search is case sensitive and if we search for the word "Spherical", a different result should be expected. 

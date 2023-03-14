@@ -1,9 +1,7 @@
 This report is a writeup about researching the command, "find". 
 
 Source: 
-[tecmint](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
-[linuxconfig] (https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
-[alvinalexander] (https://alvinalexander.com/unix/edu/examples/find.shtml)
+[tecmint](https://www.tecmint.com/35-practical-examples-of-linux-find-command/), [linuxconfig](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size), [alvinalexander](https://alvinalexander.com/unix/edu/examples/find.shtml)
 
 **Command 1: Name, -name** 
 <br>

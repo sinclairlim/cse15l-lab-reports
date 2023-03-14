@@ -338,6 +338,7 @@ Example: Find text files that does not start with "W"
 We can see that none of the results include text files that starts with "W".
 
 Example: Find text files that does not have the alphabet "A" in the middle of their file name
+
 ```
 [cs15lwi23agz@ieng6-203]:berlitz1:317$ find . -not -name "*a*.txt"
 .

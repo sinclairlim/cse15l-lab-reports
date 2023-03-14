@@ -131,7 +131,8 @@ Example: files below 2MB
 ./WhereToMadeira.txt
 ./WhereToMadrid.txt
 ./WhereToMalaysia.txt
-./WhereToMallorca.txt```
+./WhereToMallorca.txt
+```
 
 The files displayed are files that are below 2MB in size.
 
@@ -142,7 +143,8 @@ Example: files above 100KB
 ./WhereToIndia.txt
 ./WhereToItaly.txt
 ./WhereToJapan.txt
-./WhereToMalaysia.txt```
+./WhereToMalaysia.txt
+```
 
 The files displayed are files that are above 100KB in size.
 
@@ -333,7 +335,8 @@ Example: Find text files that does not start with "W"
 ./IntroMadrid.txt
 ./IntroMalaysia.txt
 ./IntroMallorca.txt
-./JungleMalaysia.txt```
+./JungleMalaysia.txt
+```
 
 We can see that none of the results include text files that starts with "W".
 
